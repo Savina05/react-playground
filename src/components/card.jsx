@@ -1,16 +1,15 @@
 import React from 'react';
 
-const Card = ({ title, body }) => {
+const Card = ({ title, body, url }) => {
   return (
     <div className="card">
-      <div className="card_title">
-        <h1>{title}</h1>
+      <div className="card_title" style={{ backgroundImage: `${url}` }}>
       </div>
-      <div className="card_body">
-        <h1>{body}</h1>
+      <div>
+        <h1 className="card_body">{body}</h1>
       </div>
-      <div className="card_button">
-        <h1>Read more</h1>
+      <div>
+        <h1 className="card_button">Read more</h1>
       </div>
     </div>
   );
