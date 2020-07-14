@@ -1,0 +1,21 @@
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  font-size: 1.6rem;
+  padding: 5rem 20rem;
+}
+
+.navbar__menu {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.navbar__menu:not(:last-child) {
+  padding-right: 8rem;
+}

@@ -1,9 +1,13 @@
 import React from 'react';
+import Hero from './hero';
 import Navbar from './navbar';
 
 const App = () => {
   return (
-    <Navbar />
+    <div>
+      <Navbar />
+      <Hero />
+    </div>
   );
 };
 

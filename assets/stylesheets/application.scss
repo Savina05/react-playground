@@ -1,11 +1,21 @@
 @import url(./fonts.scss);
+@import url(./navbar.scss);
+@import url(./section_hero.scss);
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+html {
+  font-size: 62.5%; // 1rem = 10px;
 }
 
 body {
+  box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
 }
