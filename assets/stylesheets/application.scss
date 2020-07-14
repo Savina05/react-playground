@@ -1,7 +1,4 @@
-@import url(./fonts.scss);
-@import url(./navbar.scss);
-@import url(./section_hero.scss);
-
+@import 'components/index';
 
 html {
   font-size: 62.5%; // 1rem = 10px;
@@ -18,4 +15,8 @@ body {
   margin: 0px;
   padding: 0px;
   box-sizing: inherit;
+}
+
+#root {
+  max-width: 100%;
 }

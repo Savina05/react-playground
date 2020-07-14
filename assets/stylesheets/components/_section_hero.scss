@@ -1,0 +1,71 @@
+.section_hero {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.section_hero-h1 {
+  color: #fff;
+  font-size: 7rem;
+  position: absolute;
+  top: 32rem;
+  left: 26rem;
+
+}
+
+.section_hero-p {
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  position: absolute;
+  top: 50rem;
+  left: 26rem;
+}
+
+.slide {
+  color: rgba(#fff, .6);
+  position: absolute;
+  top: 50%;
+  font-size: 4rem;
+  transition: all .2s;
+
+  &:hover {
+    color: rgba(#fff, 1);
+    cursor: pointer;
+  }
+
+  &-left{
+    left: 5%;
+  }
+
+  &-right {
+    right: 5%;
+  }
+}
+
+.hero_circle {
+  position: absolute;
+  left: 48%;
+  bottom: 2%;
+}
+
+.circle-1, .circle-2, .circle-3 {
+  color: rgba(#fff, .6);
+  font-size: 1.4rem;
+  transition: all .2s;
+
+  &:hover {
+    cursor: pointer;
+    color: rgba(#fff, 1);
+  }
+}
+
+.circle-1, .circle-2 {
+  margin-right: 10px;
+}
+
+.hero_circle_active {
+  color: rgba(#fff, .8);
+}

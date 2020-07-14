@@ -1,4 +1,5 @@
 import React from 'react';
+import Cards from './cards';
 import Hero from './hero';
 import Navbar from './navbar';
 
@@ -7,6 +8,7 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
+      <Cards />
     </div>
   );
 };
