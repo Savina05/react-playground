@@ -1,7 +1,11 @@
 import React from 'react';
 import Cards from './cards';
+import Careers from './careers';
 import Hero from './hero';
 import Navbar from './navbar';
+import Tabs from './tab';
+import WeAre from './weare';
+import WeDo from './wedo';
 
 const App = () => {
   return (
@@ -9,6 +13,10 @@ const App = () => {
       <Navbar />
       <Hero />
       <Cards />
+      <WeAre />
+      <WeDo />
+      <Careers />
+      <Tabs />
     </div>
   );
 };

@@ -10,6 +10,8 @@
 
 .card {
   width: 40rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
 }
 
 .card_title {
@@ -30,17 +32,4 @@
   display: flex;
   align-items: top;
   padding: 3.5rem;
-}
-
-.card_button {
-  font-size: 1.5rem;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  font-weight: 300;
-  color: #fff;
-  padding: 1.5rem 0;
-  text-align: center;
-
-  background-color: black;
-
 }
