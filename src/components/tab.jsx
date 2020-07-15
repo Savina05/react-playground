@@ -67,19 +67,19 @@ class Tabs extends Component {
         <div className="tabs">
           <p className="tab_selection tab_selection_active" id="first" onClick={this.firstTab}>
             Vestibulum at odio sit amet
-            <span className="tab_icon">
+            <span className="tab_icon tab_icon_first">
               <FontAwesomeIcon icon={faChevronDown} />
             </span>
           </p>
           <p className="tab_selection" id="second" onClick={this.secondTab}>
             Sed vehicula neque
-            <span className="tab_icon">
+            <span className="tab_icon tab_icon_second">
               <FontAwesomeIcon icon={faChevronUp} />
             </span>
           </p>
           <p className="tab_selection" id="third" onClick={this.thirdTab}>
             Nulla id libero pretium
-            <span className="tab_icon">
+            <span className="tab_icon tab_icon_third">
               <FontAwesomeIcon icon={faChevronUp} />
             </span>
           </p>
