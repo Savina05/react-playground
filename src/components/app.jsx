@@ -1,6 +1,7 @@
 import React from 'react';
 import Cards from './cards';
 import Careers from './careers';
+import ContactUs from './contact';
 import Hero from './hero';
 import Navbar from './navbar';
 import Tabs from './tab';
@@ -17,6 +18,7 @@ const App = () => {
       <WeDo />
       <Careers />
       <Tabs />
+      <ContactUs />
     </div>
   );
 };
