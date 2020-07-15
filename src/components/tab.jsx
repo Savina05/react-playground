@@ -26,7 +26,7 @@ const Tabs = () => {
         </p>
       </div>
       <div className="tab_text">
-        <p>Prova</p>
+        <p>Placeholder</p>
       </div>
     </div>
   );
