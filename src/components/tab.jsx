@@ -6,17 +6,26 @@ const Tabs = () => {
   return (
     <div id="tabs">
       <div className="tabs">
-        <p>
+        <p className="tab_selection tab_selection_active">
           Vestibulum at odio sit amet
-          <FontAwesomeIcon icon={faChevronDown} />
+          <span className="tab_icon">
+            <FontAwesomeIcon icon={faChevronDown} />
+          </span>
         </p>
-        <p>
+        <p className="tab_selection">
           Sed vehicula neque
-          <FontAwesomeIcon icon={faChevronUp} />
+          <span className="tab_icon">
+            <FontAwesomeIcon icon={faChevronUp} />
+          </span>
         </p>
-        <p>Nulla id libero pretium</p>
+        <p className="tab_selection">
+          Nulla id libero pretium
+          <span className="tab_icon">
+            <FontAwesomeIcon icon={faChevronUp} />
+          </span>
+        </p>
       </div>
-      <div>
+      <div className="tab_text">
         <p>Prova</p>
       </div>
     </div>
