@@ -8,15 +8,23 @@
   justify-content: space-between;
   background-color: transparent;
   font-size: 1.6rem;
-  padding: 5rem 20rem;
+  padding: 4rem 20rem;
 }
 
 .navbar__menu {
   color: #fff;
   text-decoration: none;
-  display: inline-block;
 }
 
 .navbar__menu:not(:last-child) {
   padding-right: 8rem;
+}
+
+.navbar_white {
+  background-color: white;
+  box-shadow: 0 0 5rem rgba(#000, .3);
+
+  .navbar__menu {
+    color: #000;
+  }
 }

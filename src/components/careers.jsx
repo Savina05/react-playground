@@ -13,7 +13,7 @@ const Careers = () => {
           <br />
           Nulla condimentum tortor sem.
         </p>
-        <a href="#we-are" className="btn-white">
+        <a href="#careers" className="btn-white">
           The positions
           <FontAwesomeIcon icon={faChevronRight} />
         </a>

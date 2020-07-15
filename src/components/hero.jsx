@@ -5,11 +5,6 @@ import { faChevronLeft, faChevronRight, faCircle } from '@fortawesome/free-solid
 const images = ["url(./assets/images/slide-circle.jpg)", "url(./assets/images/slide-hello.jpg)","url(./assets/images/slide-play.jpg)"];
 
 class Hero extends Component {
-  slideLeft = () => {
-    const div = document.querySelector('.section_hero');
-    div.style.backgroundImage = images[0];
-  }
-
   circleOne = () => {
     const div = document.querySelector('.section_hero');
     div.style.backgroundImage = images[0];
@@ -28,7 +23,7 @@ class Hero extends Component {
   render() {
     return (
       <div className="section_hero" style={{ backgroundImage: "url(./assets/images/slide-hello.jpg)" }}>
-        <FontAwesomeIcon icon={faChevronLeft} className="slide slide-left" onClick={this.slideLeft} />
+        <FontAwesomeIcon icon={faChevronLeft} className="slide slide-left" onClick={this.circleOne} />
         <h1 className="section_hero-h1">
           lorem
           <br />

@@ -1,0 +1,14 @@
+.footer {
+  background-color: #000;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-top: 2px solid rgba(#fff, .3);
+}
+
+.footer_logo {
+  margin-bottom: 3rem;
+}
