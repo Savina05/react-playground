@@ -9,6 +9,10 @@
   background-color: transparent;
   font-size: 1.6rem;
   padding: 4rem 20rem;
+
+  @include respond(tab-land) {
+    padding: 2rem 15rem;
+  }
 }
 
 .navbar__menu {
@@ -18,6 +22,10 @@
 
 .navbar__menu:not(:last-child) {
   padding-right: 8rem;
+
+  @include respond(tab-land) {
+    padding-right: 6rem;
+  }
 }
 
 .navbar_white {

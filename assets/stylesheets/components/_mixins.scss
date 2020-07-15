@@ -1,14 +1,14 @@
 /*
 MEDIA QUERY MANAGER
    0px   -  600px    Phone
- 600px   -  900px    Tablet portrait
+ 600px   -  900px    Tablet
  900px   - 1200px    Tablet landscape
 1200px   - 1400px    It's where our normal style applies
 1400px +             Big desktop
 
 $breakpoint argument choices:
 - phone
-- tab-port
+- tab
 - tab-land
 - big-desktop
 

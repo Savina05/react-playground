@@ -1,8 +1,5 @@
 .section_cards {
   padding: 6rem 0;
-  // display: grid;
-  // grid-template-columns: min-content min-content min-content;
-  // grid-column-gap: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -11,12 +8,20 @@
 }
 
 .card {
-  width: 40rem;
+  width: 35rem;
   margin-bottom: 3rem;
+
+  @include respond(tab-land) {
+    width: 30rem;
+  }
 }
 
 .card:not(:last-child) {
   margin-right: 3rem;
+
+  @include respond(tab-land) {
+    margin-right: 2rem;
+  }
 }
 
 .card_title {
@@ -32,7 +37,7 @@
   font-weight: 400;
   font-size: 2rem;
   background-color: #fff;
-  min-height: 20rem;
+  height: 25rem;
   text-align: center;
   display: flex;
   align-items: top;
