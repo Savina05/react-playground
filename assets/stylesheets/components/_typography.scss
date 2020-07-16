@@ -3,18 +3,8 @@
   color: #fff;
   line-height: 1;
   position: absolute;
-  top: 20rem;
-  left: 26rem;
-
-  @include respond(tab-land) {
-    top: 30rem;
-    left: 20rem;
-  }
-
-  @include respond(big-desktop) {
-    top: 30rem;
-    left: 26rem;
-  }
+  top: 40%;
+  left: 15%;
 }
 
 .section_hero-p {
@@ -22,18 +12,8 @@
   font-size: 1.8rem;
   line-height: 1.6;
   position: absolute;
-  top: 35rem;
-  left: 26rem;
-
-  @include respond(tab-land) {
-    top: 48rem;
-    left: 20rem;
-  }
-
-  @include respond(big-desktop) {
-    top: 50rem;
-    left: 26rem;
-  }
+  top: 56%;
+  left: 15%;
 }
 
 .heading-h1 {
