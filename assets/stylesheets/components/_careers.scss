@@ -3,4 +3,12 @@
   display: flex;
   align-items: center;
   height: 70vh;
+
+  @include respond(tab-land) {
+    height: 60vh;
+  }
+
+  @include respond(tab) {
+    flex-direction: column;
+  }
 }

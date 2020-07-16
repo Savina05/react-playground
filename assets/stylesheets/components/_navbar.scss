@@ -1,6 +1,6 @@
 .navbar {
-  width: 100%;
   position: fixed;
+  width: 100%;
   top: 0;
   left: 0;
   z-index: 100;
@@ -12,6 +12,14 @@
 
   @include respond(tab-land) {
     padding: 2rem 15rem;
+  }
+
+  @include respond(tab) {
+    padding: 2rem 8rem;
+  }
+
+  @include respond(phone) {
+    padding: 2rem 4rem;
   }
 }
 
@@ -25,6 +33,14 @@
 
   @include respond(tab-land) {
     padding-right: 6rem;
+  }
+
+  @include respond(tab) {
+    padding-right: 4rem;
+  }
+
+  @include respond(phone) {
+    padding-right: 2rem;
   }
 }
 

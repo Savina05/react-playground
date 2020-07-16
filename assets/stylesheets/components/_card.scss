@@ -14,6 +14,10 @@
   @include respond(tab-land) {
     width: 30rem;
   }
+
+  @include respond(tab) {
+    width: 42rem;
+  }
 }
 
 .card:not(:last-child) {
@@ -21,6 +25,10 @@
 
   @include respond(tab-land) {
     margin-right: 2rem;
+  }
+
+  @include respond(phone) {
+    margin-right: 0rem;
   }
 }
 

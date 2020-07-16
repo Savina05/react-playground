@@ -21,6 +21,11 @@
   color: #fff;
   padding-left: 4rem;
   line-height: .8;
+
+  @include respond(tab) {
+    text-align: left;
+    padding-top: 2rem;
+  }
 }
 
 .we-are__paragraph {
@@ -29,6 +34,12 @@
   margin-top: 3rem;
   margin-bottom: 5rem;
   padding-left: 4rem;
+
+  @include respond(tab) {
+    text-align: left;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
 }
 
 .heading_white {
@@ -56,6 +67,11 @@
   @include respond(tab-land) {
     padding: 4rem 6rem;
     width: 60%;
+  }
+
+  @include respond(tab) {
+    margin-top: 2rem;
+    width: 90%;
   }
 }
 

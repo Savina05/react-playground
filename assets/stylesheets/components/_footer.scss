@@ -7,6 +7,14 @@
   justify-content: center;
   color: #fff;
   border-top: 2px solid rgba(#fff, .3);
+
+  @include respond(tab-land) {
+    height: 18rem;
+  }
+
+  @include respond(tab) {
+    height: 15rem;
+  }
 }
 
 .footer_logo {

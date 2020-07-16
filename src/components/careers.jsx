@@ -6,7 +6,7 @@ const Careers = () => {
   return (
     <div id="careers">
       <img src="./assets/images/banner-carrers.jpg" alt="careers" className="we-are_picture" />
-      <div>
+      <div className="careers_text">
         <h1 className="heading-h1">careers.</h1>
         <p className="we-are__paragraph">
           Consectetur adipiscing elit.
