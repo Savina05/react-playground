@@ -35,6 +35,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --mode development",
+    "start": "node index.js",
     "lint": "eslint './src/**/*.js*'",
     "deploy": "webpack -p && gh-pages -d dist"
   }
