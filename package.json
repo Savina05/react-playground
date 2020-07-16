@@ -43,6 +43,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --mode development",
+    "build": "scripts build",
     "lint": "eslint './src/**/*.js*'",
     "deploy": "yarn start"
   },
