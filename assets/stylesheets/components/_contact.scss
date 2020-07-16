@@ -18,6 +18,10 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem 2rem;
   margin-left: 3rem;
+
+  @include respond(tab) {
+    margin-left: 0rem;
+  }
 }
 
 .form_input {
@@ -26,6 +30,10 @@
   padding: 1.5rem 2rem;
   background-color: transparent;
   border: 1px solid #fff;
+
+  @include respond(tab) {
+    padding: 1rem 1.5rem;
+  }
 }
 
 .input_name {
@@ -48,6 +56,6 @@
   grid-column: 1 / 4;
 
   &::input-placeholder {
-      vertical-align: top;
-    }
+    vertical-align: top;
+  }
 }

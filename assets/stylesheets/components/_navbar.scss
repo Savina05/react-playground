@@ -52,3 +52,10 @@
     color: #000;
   }
 }
+
+.navbar__logo {
+  @include respond(tab) {
+    height: 2.5rem;
+    width: 10rem;
+  }
+}

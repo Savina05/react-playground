@@ -29,6 +29,10 @@
   &-right {
     right: 5%;
   }
+
+  @include respond(phone) {
+    font-size: 3rem;
+  }
 }
 
 .hero_circle {
@@ -46,6 +50,8 @@
     cursor: pointer;
     color: rgba(#fff, 1);
   }
+
+  font-size: 1.2rem;
 }
 
 .circle-1, .circle-2 {
