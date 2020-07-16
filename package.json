@@ -43,10 +43,9 @@
     "react-dom": "16.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "webpack-dev-server --mode development",
+    "lint": "eslint './src/**/*.js*'",
+    "deploy": "yarn start"
   },
   "main": "webpack.config.js",
   "repository": {
